@@ -5,7 +5,7 @@ const Card = (props) => {
 		<section
 			className={`${classes.card} ${props.className ? props.className : '' }`}
 		>
-			{process.children}
+			{props.children}
 		</section>
 	);
 };
